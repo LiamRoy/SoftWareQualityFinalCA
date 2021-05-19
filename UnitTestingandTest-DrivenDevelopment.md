@@ -27,6 +27,7 @@ Error Located in Rubric.java class.
 ---
 
 **Green**
+
 ![Image of TDD Process ](images/Green.png)
 
 ## Links
