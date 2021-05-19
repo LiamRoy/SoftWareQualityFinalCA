@@ -1,5 +1,6 @@
 # SoftWareQualityFinalCA
 ## Introduction
+
 The goal of this project is to be a reference guide for best practices during software development following a test driven approach. The project is about storing information about student grades.
 ---
 ## Features/Requirements
@@ -20,10 +21,14 @@ Team version-control
 Code-review checklist
 ---
 # Scrum sprint backlog and task estimation
+
 Sprint Backlog is a Scrum Artifact. Scrum is an agile framework used for developing and delivering software in short periods of time. These short periods of time are called sprints, generally a 2-week period that starts with a Sprint plan and ends with the product coded. 
 The sprint backlog is a list of tasks by the Scrum team to be completed during the sprint. During the sprint planning meeting, the team selects several product backlog items. These consist of User Stories and tasks identified by the team.
 ### Task Estimation
-Task Estimation in Scrum projects is done by the entire team. It is setup during the Spring Planning meeting. The goal of Estimation is to consider the User Stories for the Sprint by Priority and by the Ability of the team to deliver during the Time Box of the Sprint. Types of Estimation includes Story Points with its most popular being Planning Poker. Planning Poker is what I will be using in this project. In this technique each task is assigned a story point value relating to its complexity. I will be using the Fibonacci sequence. The Fibonacci sequence is a series of numbers in which each number ( Fibonacci number ) is the sum of the two preceding numbers. The simplest is the series 1, 1, 2, 3, 5, 8, etc. Using the Fibonacci sequence allows for a simple and clear distinction between task estimates.
+
+Task Estimation in Scrum projects is done by the entire team. It is setup during the Spring Planning meeting. The goal of Estimation is to consider the User Stories for the Sprint by Priority and by the Ability of the team to deliver during the Time Box of the Sprint. 
+Types of Estimation includes Story Points with its most popular being Planning Poker. Planning Poker is what I will be using in this project. In this technique each task is assigned a story point value relating to its complexity. 
+I will be using the Fibonacci sequence. The Fibonacci sequence is a series of numbers in which each number ( Fibonacci number ) is the sum of the two preceding numbers. The simplest is the series 1, 1, 2, 3, 5, 8, etc. Using the Fibonacci sequence allows for a simple and clear distinction between task estimates.
 **1** is the lowest number meaning it is a task which requires minimal effort or problem solving. Example: A name change.
 **2** is slightly more complex but still a straight-forward task.
 Example: Adding a return statement.
@@ -34,6 +39,7 @@ Example: Designing and implementing mathematical algorithms.
 **8** is the second highest value and should be given to a very complex function.
 Example: Carrying out a high degree of computation or data manipulation.
 **13** is the highest value that can be given to a task on this scale. This would be a task which requires a very substantial amount of effort and solving to implement. If it is decided that a task is valued at 13 the team should work to try and break the task down in to smaller steps.
+
 ### Tasks
 -	Create new rubric - 2
 -	Add Criterion to rubric - 3
