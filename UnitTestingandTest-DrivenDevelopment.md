@@ -20,7 +20,11 @@ Error Located in Rubric.java class.
 
 ![Image of TDD Process ](images/Error.png)
 
+---
+
 ![Image of TDD Process ](images/ErrorFix.png)
+
+---
 
 **Green**
 ![Image of TDD Process ](images/Green.png)
