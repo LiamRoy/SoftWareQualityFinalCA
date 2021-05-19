@@ -4,6 +4,7 @@ The metric I used to analyse the projects test coverage was EclEmma. This is a f
 
 It is built into Eclipse so there are no implementation steps needed. Simply, click on the run button in the eclipse menu and a report will be generated as shown below.
 
+
 ![Image of TDD Process ](images/TestRun.png)
 
 
