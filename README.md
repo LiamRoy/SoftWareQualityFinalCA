@@ -14,8 +14,9 @@ The goal of this project is to be a reference guide for best practices during so
  - Grade Calculations 
 ---
 ## Sections  
-- Scrum sprint backlog and task estimation
-- Unit testing and Test-Driven development
-- Test coverage metric
-- Team version-control 
-- Code-review checklist
+
+[**Scrum sprint backlog and task estimation**](ScrumSprintBacklogAndTaskEstimation.md)
+[**Unit testing and Test-Driven development**](UnitTestingandTest-DrivenDevelopment.md)
+[**Test coverage metric**](Test Coverage Metric.md)
+[**Team version-control **](TeamVersionControl.md)
+[**Code-review checklist**](CodeReviewChecklist.md)
