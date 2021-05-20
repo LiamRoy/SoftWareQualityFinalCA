@@ -7,10 +7,8 @@ public class Rubric {
 	private String name;
 	private ArrayList<Criterion> criterions = new ArrayList<Criterion>();
 	private ArrayList<StudentGrade> grades = new ArrayList<>();
-	
 	public Rubric() {
 	}
-	
 	public Rubric(String name) {
 		this.name=name;
 	}
