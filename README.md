@@ -19,7 +19,7 @@ The goal of this project is to be a reference guide for best practices during so
 
 [**Unit testing and Test-Driven development**](UnitTestingandTest-DrivenDevelopment.md)
 
-[**Test coverage metric**](Test Coverage Metric.md)
+[**Test coverage metric**](TestCoverageMetric.md)
 
 [**Team version-control**](TeamVersionControl.md)
 
