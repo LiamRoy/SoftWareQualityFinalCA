@@ -41,3 +41,5 @@ When comparing tasks, it is important to look at the computational factors, comp
 ### Velocity
 The velocity metric is used to determine the size of the entire sprint. To calculate the velocity of a sprint, you must add up all the story points for each individual task. It may not give an accurate reading after the first Sprint, but as time progresses and more Sprints are completed you can work out the teams average velocity.
 
+## Links
+- [Home](README.md)
