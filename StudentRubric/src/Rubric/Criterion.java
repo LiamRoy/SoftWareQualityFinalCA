@@ -1,7 +1,6 @@
 package Rubric;
 
 public class Criterion {
-	
 	private String criterion;
 	
 	public Criterion() {

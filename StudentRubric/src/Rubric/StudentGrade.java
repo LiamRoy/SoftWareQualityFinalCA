@@ -1,7 +1,6 @@
 package Rubric;
 
 import java.util.HashMap;
-
 public class StudentGrade {
 	
 	private HashMap<Integer, Integer> studentGrades;

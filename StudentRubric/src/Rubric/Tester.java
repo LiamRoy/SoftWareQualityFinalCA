@@ -12,12 +12,14 @@ public class Tester {
 	
 	Controller controller = new Controller();
 	
+	//Create Empty Rubric
 	@Test
 	public void TestEmptyRubricCreation() {
 		Rubric rubric = controller.createEmptyRubric();
 		assertTrue("Rubric is Created", rubric instanceof Rubric);
 	}
 	
+	//ERROR IN THIS TEST
 //	@Test
 //	public void TestRubricWithCriterion() {
 //		//String name = "Liam";
@@ -30,10 +32,11 @@ public class Tester {
 //		
 //		rubric = controller.createRubric("Liam",criterions);
 //		
-//		/*assertTrue("Should create a rubric with a critea object",
-//				rubric.getCriterions().equals("Design"));*/
+//		assertTrue("Should create a rubric with a critea object",
+//				rubric.getCriterions().equals("Design"));
 //	}
 	
+	//Add Criteria
 	@Test
 	public void TestAddCriterion() {
 		
@@ -45,6 +48,7 @@ public class Tester {
 		assertTrue("Criteria should be added",r.getCriterions().get(0).getCriterion().equals("Design"));
 	}
 	
+	//Search in Rubric
 	@Test
 	public void TestSearchForRubric() {
 		Rubric r1 = new Rubric("Test 1");
@@ -60,6 +64,7 @@ public class Tester {
 		assertTrue("Should return one Rubric", search.getName().equals("Test 2"));
 	}
 	
+	//Show All Criteria
 	@Test
 	public void TestShowAllCriteria() {
 		Rubric r1 = new Rubric("Test 1");
@@ -77,6 +82,7 @@ public class Tester {
 		assertTrue("Should return all Rubrics", allRubrics.size()<=3);
 	}
 	
+	//Create Grades
 	@Test
 	public void TestCreateGrades() {
 		int grade1 = 1;
@@ -88,6 +94,7 @@ public class Tester {
 		assertTrue("Grades should appear", grade.getStudentGrades().size() == 4);
 	}
 	
+	//Add grades to Rubrics
 	@Test
 	public void TestAddGradestoRubric() {
 		ArrayList<Rubric> rubrics = new ArrayList<Rubric>();
@@ -115,6 +122,7 @@ public class Tester {
 		StudentGrade studentGrade = controller.createGrade(g1, g2, g3, g4);
 	}
 	
+	//Show All Grades
 	@Test
 	public void TestGetAllGrades() {
 		ArrayList<Rubric> rubrics = new ArrayList<Rubric>();
@@ -147,6 +155,7 @@ public class Tester {
 				specificRubric.getGrades().get(0).getStudentGrades().size() == 4);
 	}
 	
+	//Show Average Grade
 	@Test
 	public void TestAverageGrade() {
 		
@@ -177,6 +186,7 @@ public class Tester {
 		
 	}
 	
+	//Show Standard Deviation
 	@Test
 	public void TestStdDevGrade() {
 
@@ -215,6 +225,7 @@ public class Tester {
 		assertEquals(stdDev,1);
 	}
 	
+	//Show max Grade
 	@Test
 	public void TestMaxGrade() {
 		Criterion c1 = new Criterion("Design");
@@ -241,6 +252,7 @@ public class Tester {
 		assertEquals(max, 5);
 	}
 	
+	// Show min Grade
 	@Test
 	public void TestMinGrade() {
 		Criterion c1 = new Criterion("Design");
